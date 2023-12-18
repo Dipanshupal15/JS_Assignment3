@@ -1,0 +1,94 @@
+Que 1- Write the Code for all Data types.
+Ans 1- Number:
+       let numericValue = 40;
+       console.log("Number:", numericValue);
+
+       String:
+       let stringValue = "Hello, JavaScript!";
+       console.log("String:", stringValue);
+
+       Boolean:
+       let isTrue = true;
+       console.log("Boolean (True):", isTrue);
+
+       let isFalse = false;
+       console.log("Boolean (False):", isFalse);
+
+       Undefined:
+       let undefinedValue;
+       console.log("Undefined:", undefinedValue);
+
+       Null:
+       let nullValue = null;
+       console.log("Null:", nullValue);
+
+       Symbol (Introduced in ECMAScript 6):
+       let symbolValue = Symbol("unique");
+       console.log("Symbol:", symbolValue);
+
+       Object:
+       let objectValue = { key: "value" };
+       console.log("Object:", objectValue);
+
+Que 2- What are the uses of JavaScript Operators ?
+Ans 2- JavaScript operators are symbols or keywords that perform operations on operands (values or variables).
+       They allow you to manipulate and perform various computations on data. 
+
+       1.Arithmetic Operations:
+         Operators: '+','-','*','/','%','++','--'
+         Use: Perform basic mathematical calculations.
+
+       2.Assignment Operations:
+         Operators: '=','+=','-=','*=','/=','%='
+         Use: Assign values to variables and update their values based on calculations.
+
+       3.Comparison Operations:
+         Operators: '==','===','!=','!==','>','<','>=','<='
+        Use: Compare values and return a Boolean result.
+
+       4.Logical Operations:
+         Operators: '&&','||','!'
+         Use: Combine and manipulate Boolean values.
+
+Que 3- Explain the Assignment Operator.
+Ans 3- Assignment Operators: Assignment operators in JavaScript are used to assign values to variables. They combine the assignment
+       operation (=) with various arithmetic or logical operations, allowing you to perform the operation and assign the result to a 
+       variable in a single step. 
+
+       Operators: '=','+=','-=','*=','/=','%='
+       Use: Assign values to variables and update their values based on calculations.
+
+Que 4- Explain the all Arithmetic Operators.
+Ans 4- Arithmetic operators in JavaScript perform mathematical operations on numeric values. 
+   
+       Addition Operator (+): Adds two numbers or concatenates two strings.
+       Subtraction Operator (-): Subtracts the right operand from the left operand.
+       Multiplication Operator (*): Multiplies two numbers.
+       Division Operator (/): Divides the left operand by the right operand.
+       Modulus Operator (%): Computes the remainder when the left operand is divided by the right operand.
+       Increment Operator (++): Increases the value of a variable by 1. It can be used as a prefix (++x) or postfix (x++).
+       Decrement Operator (--): Decreases the value of a variable by 1. It can be used as a prefix (--x) or postfix (x--).
+       Exponentiation Operator (**): Raises the left operand to the power of the right operand.
+
+Que 5- What are the Binary Operators in js ?
+Ans 5- Binary operators in JavaScript are operators that operate on two operands (values or variables). These operators require
+       two operands to perform an operation.
+
+Que 6- Explain the Pre-Increment and Post Increment in js.
+Ans 6- In JavaScript, both pre-increment and post-increment are unary operators that increase the value of a variable by 1.
+       The key difference between them is when the incrementation takes place in relation to the current value of the variable.
+
+       Pre-Increment ('++x'):
+       In pre-increment, the value of the variable is increased before the rest of the expression is evaluated.
+
+       Post-Increment ('x++'):
+       In post-increment, the current value of the variable is used in the expression, and then the variable is increased.
+
+
+
+
+
+
+
+
+
